@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import React from 'react'
 
 function Devloper() {
@@ -6,7 +7,9 @@ function Devloper() {
     <div>
         <div>
             <h2>here are Devlopers</h2>
-            <h4>enter the id to get the more information about us</h4>
+            <h3><Link href='/about/devloper/0'>yesh</Link></h3>
+            <h3><Link href='/about/devloper/1'>Vaibhav</Link></h3>
+            <h3><Link href='/about/devloper/2'>Suresh</Link></h3>
         </div>
     </div>
   )
